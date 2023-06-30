@@ -1,5 +1,2 @@
-main.remove();
-const newHeader = document.createElement("H1");
-newHeader.id = 'victory';
-newHeader.textContent = 'YOUR-NAME is the champion';
-document.body.appendChild(newHeader);
+main.remove()
+let newHeader = document.createElement(`h1`)
